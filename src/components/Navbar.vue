@@ -11,21 +11,23 @@
         :to="{ name: 'byName' }"
         class="inline-flex  text-xs md:text-lg items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
       >
-         <span class=" hidden md:inline">    Search</span>
+         <span class=" hidden md:inline pr-1">Search</span>
+         
        Meals
       </router-link>
       <router-link
         :to="{ name: 'byLetter' }"
         class="inline-flex  text-xs md:text-lg items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
       >
-          <span class=" hidden md:inline">  Meals By</span>
+        
+
       Letter
       </router-link>
       <router-link
         :to="{ name: 'ingredients' }"
         class="inline-flex  text-xs md:text-lg items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
       >
-      <span class=" hidden md:inline">  Meals By</span> Ingredients
+  Ingredients
       </router-link>
     </div>
   </header>
